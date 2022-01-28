@@ -1,12 +1,14 @@
 using System;
+using Microsoft.EntityFrameworkCore;
 
-namespace Deliverycart
+
+namespace Deliverycart.Models
 {
-    public class Vendor
+    public class Vendor : User
     {
         public int VendorID {get;set;}
 
-        public int UserID {get;set;}
+        public User User {get; set;}
 
         public int BillingID {get;set;}
 

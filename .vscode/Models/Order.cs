@@ -1,6 +1,8 @@
 using System;
+using Microsoft.EntityFrameworkCore;
 
-namespace Deliverycart
+
+namespace Deliverycart.Models
 {
     public class Order
     {
@@ -10,12 +12,8 @@ namespace Deliverycart
         public Customer Customer {get;set;}
 
         public int ShopperID {get;set;}
-        public Shopper Shopper {get;set;}
-        public List <Order> Orders {get;set;}
-
-        public int ShopperID {get;set;}        
+        public Shopper Shopper {get;set;}       
         public int itemID {get;set;}
-
         public int Qty {get;set;}
     }
 }

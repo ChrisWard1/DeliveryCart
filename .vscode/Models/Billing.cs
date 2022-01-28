@@ -1,7 +1,7 @@
 using System;
-using EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
-namespace Deliverycart
+namespace Deliverycart.Models
 {
     public class Billing
     {
@@ -12,6 +12,5 @@ namespace Deliverycart
         public int bankRoutingNum {get;set;}
         public int bankAccountNum {get;set;}
         
-        //checking to see if I can push
     }
 }

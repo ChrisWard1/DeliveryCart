@@ -1,9 +1,9 @@
 using System;
-using EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace Deliverycart.Models
 {
-    public class Customer
+    public class Customer : User
     {
         public int CustomerID {get;set;}
         public int BillingID {get;set;}

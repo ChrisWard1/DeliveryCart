@@ -1,9 +1,9 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace Deliverycart
+namespace Deliverycart.Models
 {
-    public class Manager
+    public class Manager : Shopper
     {
         public int ManagerID {get;set;}
         public List<Shopper> Shoppers{get;set;}

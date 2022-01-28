@@ -1,5 +1,5 @@
 using System;
-using EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace Deliverycart.Models
 {

@@ -1,6 +1,8 @@
 using System;
+using Microsoft.EntityFrameworkCore;
 
-namespace Deliverycart
+
+namespace Deliverycart.Models
 {
     public class User
     {
@@ -13,6 +15,9 @@ namespace Deliverycart
         public string City {get;set;}
         public string State {get;set;}
         public int zipCode {get;set;}
+        public List <Customer> Customer {get;set;}
+        public List <Vendor> Vendor {get;set;}
+        public List <Shopper> Shopper {get;set;}
 
     }
 }

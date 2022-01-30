@@ -1,20 +1,20 @@
 using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Deliverycart.Models
+namespace Deliverycart2.Models
 {
     public class Vendor : User
     {
-        public int VendorID {get;set;}
-
-        public User User {get; set;}
-
-        public int BillingID {get;set;}
-
-        public string storeAddress {get;set;}
-        public string storeCity {get;set;}
-        public string storeState {get;set;}
+        public int VendorID {get;set;}      
+        public string storeAddress {get;set;}= default!;
+        public string storeCity {get;set;}= default!;
+        public string storeState {get;set;}= default!;
         public int storeZip {get;set;}
+        public List<Item> Items {get;set;} = default!;
+        public Item Item {get;set;} = default!;
         
     }
 }

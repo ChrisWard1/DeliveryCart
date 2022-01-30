@@ -1,17 +1,18 @@
 using System;
+using System.Linq;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace Deliverycart.Models
+namespace Deliverycart2.Models
 {
     public class Customer : User
     {
-        public int CustomerID {get;set;}
-        public int BillingID {get;set;}
-        public int UserID{get;set;}
-        public string delivAdd {get;set;}
+        public int CustomerID {get;set;}     
+        public string delivAdd {get;set;}= default!;
         //one to many
-        public List<Order> Orders {get;set;}
-        public User User {get; set;}
+        public List<Order> Orders {get;set;}= default!;
+        
         
     }
 }

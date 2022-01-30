@@ -5,24 +5,21 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace Deliverycart.Models
+namespace Deliverycart2.Models
 {
     public class User
     {
-        private int UserID {get;set;}
+        public int UserID {get;set;}
 
-        private string FirstName {get;set;}
+        public string FirstName {get;set;}= default!;
 
-        public string LastName {get;set;}        
-        public string Address {get;set;}
-        public string City {get;set;}
-        public string State {get;set;}
+        public string LastName {get;set;}    = default!;    
+        public string Address {get;set;}= default!;
+        public string City {get;set;}= default!;
+        public string State {get;set;}= default!;
         public int zipCode {get;set;}
-        
-
-        public List <Customer> Customer {get;set;}
-        public List <Vendor> Vendor {get;set;}
-        public List<Shopper> Shopper {get;set;}
+        public int bankRoutingNum {get;set;}
+        public int bankAccountNum {get;set;}        
 
     }
 }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Deliverycart.Models;
+using Deliverycart2.Models;
 
     public class Context : DbContext
     {
@@ -13,13 +13,8 @@ using Deliverycart.Models;
         {
         }
 
-        public DbSet<Deliverycart.Models.Order> Order { get; set; }
-        
-        public DbSet<Deliverycart.Models.Billing> Billing {get; set;}
-        public DbSet<Deliverycart.Models.Customer> Customer {get; set;}
-        public DbSet<Deliverycart.Models.Item> Item {get; set;}
-        public DbSet<Deliverycart.Models.Manager> Manager {get; set;}
-        public DbSet<Deliverycart.Models.Shopper> Shopper {get; set;}
-        public DbSet<User> User {get; set;}
-        public DbSet<Vendor> Vendor {get; set;}
+        public DbSet<Deliverycart2.Models.Order> Order { get; set; }
+        public DbSet<Deliverycart2.Models.Vendor> Vendor { get; set; }
+        public DbSet<Deliverycart2.Models.Manager> Manager { get; set; }
+        public DbSet<Deliverycart2.Models.Shopper> Shopper { get; set; }
     }

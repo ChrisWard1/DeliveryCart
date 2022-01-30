@@ -16298,6 +16298,11 @@
   "RootNamespace": "DeliveryCart",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\cward\\Documents\\Fall 2022\\Soft Sys Dev\\Assignment 3\\DeliveryCart\\Pages\\Orders\\Delete.cshtml",
+      "TargetPath": "Pages\\Orders\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\cward\\Documents\\Fall 2022\\Soft Sys Dev\\Assignment 3\\DeliveryCart\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -16305,6 +16310,16 @@
     {
       "FilePath": "c:\\Users\\cward\\Documents\\Fall 2022\\Soft Sys Dev\\Assignment 3\\DeliveryCart\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cward\\Documents\\Fall 2022\\Soft Sys Dev\\Assignment 3\\DeliveryCart\\Pages\\Orders\\Details.cshtml",
+      "TargetPath": "Pages\\Orders\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cward\\Documents\\Fall 2022\\Soft Sys Dev\\Assignment 3\\DeliveryCart\\Pages\\Orders\\Index.cshtml",
+      "TargetPath": "Pages\\Orders\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16323,8 +16338,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\cward\\Documents\\Fall 2022\\Soft Sys Dev\\Assignment 3\\DeliveryCart\\Pages\\Orders\\Edit.cshtml",
+      "TargetPath": "Pages\\Orders\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\cward\\Documents\\Fall 2022\\Soft Sys Dev\\Assignment 3\\DeliveryCart\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cward\\Documents\\Fall 2022\\Soft Sys Dev\\Assignment 3\\DeliveryCart\\Pages\\Orders\\Create.cshtml",
+      "TargetPath": "Pages\\Orders\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

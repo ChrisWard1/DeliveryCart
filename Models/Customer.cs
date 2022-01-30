@@ -1,5 +1,5 @@
 using System;
-using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace Deliverycart.Models
 {
@@ -12,5 +12,6 @@ namespace Deliverycart.Models
         //one to many
         public List<Order> Orders {get;set;}
         public User User {get; set;}
+        
     }
 }

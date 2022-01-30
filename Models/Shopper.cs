@@ -1,5 +1,6 @@
 using System;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace Deliverycart.Models
@@ -13,6 +14,6 @@ namespace Deliverycart.Models
         public Manager Manager {get; set;}
         public int SSN {get;set;}
         public int deliveryInfo {get;set;}
-        public List <Order> Orders {get;set;}
+        public List<Order> Orders {get;set;}
     }
 }
